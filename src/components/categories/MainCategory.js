@@ -1,9 +1,9 @@
 import React from 'react';
 
 const MainCategory = () => (
-  <div>
-    Under construction
-  </div>
+  <button type="submit">
+    Check status
+  </button>
 );
 
 export default MainCategory;
