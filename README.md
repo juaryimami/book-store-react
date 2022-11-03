@@ -1,70 +1,84 @@
-# Getting Started with Create React App
+# Math-magician Project
+![](https://img.shields.io/badge/Microverse-blueviolet)
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+"Math magicians" is a website for all fans of mathematics. It is a Single Page App (SPA) that allows users to make simple calculations and read a random math-related quote. 
 
-## Available Scripts
+![screenshot](./public/Screenshot%20from%202022-10-25%2016-16-23.png)
 
-In the project directory, you can run:
+## :red_circle: Live Demo
+You can view my hosted website in the link shown below.
+GitHub: [@JUPAC](https://silver-shortbread-797321.netlify.app/)
 
-### `npm start`
+## :hammer: Built With
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- HTML. 
+- CSS.
+- JS.
+- React.
+- Gitflow.
+- Linters.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+To get a local copy up and running follow these simple steps:
 
-### `npm test`
+1. Go to the [repository page]( https://juaryimami.github.io/math-magician/).
+2. Press the "Code" button and copy the link.
+3. Clone it using git command `git clone <link>`.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Getting Started
+   - To get a local copy up and running follow these simple example steps.
 
-### `npm run build`
+## Prerequisites
+   - please install git and node.js in your computer.
+   - Also install a code editor.
+   - A web browser to view the output.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Setup and test
+   - To clone my repository run this command `https://github.com/juaryimami/math-magician.git`  
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+   For tracking linters errors and also to run web pack manually locally you need to follow these steps:
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+   - After cloning the project you need to run this command
 
-### `npm run eject`
+         npm install This command will download all the dependencies of the project
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+   - After installing all the packages you need to build the project.
+        
+         npm run build
+         
+   - After you built youdr project run the following command to see your project in browser.
+        
+         npm start
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+  - For tracking the linter errors in js file run:
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+         npx eslint .
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+   - For tracking the linter errors in CSS file run:
 
-## Learn More
+         npx stylelint "*/.{css,scss}"
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## :blue_book: Learning Objectives
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+- Use webpack to bundle JavaScript.
+- Learn how to use proper ES6 syntax.
+- Use ES6 modules to write modular JavaScript.
 
-### Code Splitting
+## Authors
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+👤 **JuharSeid**
 
-### Analyzing the Bundle Size
+- GitHub: [@JuharYimer](https://github.com/juaryimami)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+## 🤝 :raised_hand: :raised_hand: Contributions
 
-### Making a Progressive Web App
+Contributions, issues, and feature requests are welcome!
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+Feel free to check the [issues page](https://github.com/juaryimami/math-magician/issues).
 
-### Advanced Configuration
+## :grey_exclamation: Acknowledgments
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+- [Microverse](https://www.microverse.org/)
 
-### Deployment
+## 📝 License
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+This project is [MIT](LICENSE) licensed.
