@@ -1,9 +1,9 @@
 import React from 'react';
 
 const MainCategory = () => (
-  <button type="submit">
-    Check status
-  </button>
+  <div>
+    <button type="button">CHECK STATUS</button>
+  </div>
 );
 
 export default MainCategory;
