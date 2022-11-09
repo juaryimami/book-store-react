@@ -4,8 +4,8 @@ import BookList from './BookList';
 
 const MainBooks = () => (
   <div className="mainbook__container">
-    <BookList />
     <AddBook />
+    <BookList />
   </div>
 );
 
