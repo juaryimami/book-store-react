@@ -1,6 +1,7 @@
 import { configureStore } from '@reduxjs/toolkit';
 import { combineReducers } from 'redux';
 import logger from 'redux-logger';
+import thunk from 'redux-thunk';
 import booksReducer from './books/books';
 import statusReducer from './categories/categories';
 
@@ -8,5 +9,7 @@ const reducer = combineReducers({
   books: booksReducer, status: statusReducer,
 });
 export default configureStore({
-  reducer, middleware: (getDefaultMiddleware) => getDefaultMiddleware().concat(logger),
+  reducer,
+  middleware: (getDefaultMiddleware) => getDefaultMiddleware().concat(logger,
+    thunk),
 });
