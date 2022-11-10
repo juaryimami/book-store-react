@@ -10,7 +10,8 @@
 
 # production
 /build
-
+craco.config.js
+tailwind.config.js
 # misc
 .DS_Store
 .env.local
