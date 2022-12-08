@@ -3,11 +3,11 @@
 
 "Math magicians" is a website for all fans of mathematics. It is a Single Page App (SPA) that allows users to make simple calculations and read a random math-related quote. 
 
-![screenshot](./public/Screenshot%20from%202022-10-25%2016-16-23.png)
+![screenshot](./public/Screenshot%20from%202022-12-08%2014-17-05.png)
 
 ## :red_circle: Live Demo
 You can view my hosted website in the link shown below.
-GitHub: [@JUPAC](https://silver-shortbread-797321.netlify.app/)
+GitHub: [@JUPAC]( https://juaryimami.github.io/book-store-react/)
 
 ## :hammer: Built With
 
@@ -20,7 +20,11 @@ GitHub: [@JUPAC](https://silver-shortbread-797321.netlify.app/)
 
 To get a local copy up and running follow these simple steps:
 
+<<<<<<< Updated upstream
 1. Go to the [repository page]( https://juaryimami.github.io/math-magician/).
+=======
+1. Go to the [repository page]( https://github.com/juaryimami/book-store-react.git).
+>>>>>>> Stashed changes
 2. Press the "Code" button and copy the link.
 3. Clone it using git command `git clone <link>`.
 
@@ -33,7 +37,7 @@ To get a local copy up and running follow these simple steps:
    - A web browser to view the output.
 
 ## Setup and test
-   - To clone my repository run this command `https://github.com/juaryimami/math-magician.git`  
+   - To clone my repository run this command `https://github.com/juaryimami/book-store-react.git`  
 
    For tracking linters errors and also to run web pack manually locally you need to follow these steps:
 
@@ -73,7 +77,7 @@ To get a local copy up and running follow these simple steps:
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](https://github.com/juaryimami/math-magician/issues).
+Feel free to check the [issues page](https://github.com/juaryimami/book-store-react/issues).
 
 ## :grey_exclamation: Acknowledgments
 
