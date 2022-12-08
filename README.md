@@ -1,7 +1,3 @@
-# Math-magician Project
-![](https://img.shields.io/badge/Microverse-blueviolet)
-
-"Math magicians" is a website for all fans of mathematics. It is a Single Page App (SPA) that allows users to make simple calculations and read a random math-related quote. 
 
 ![screenshot](./public/Screenshot%20from%202022-12-08%2014-17-05.png)
 
@@ -15,16 +11,14 @@ GitHub: [@JUPAC]( https://juaryimami.github.io/book-store-react/)
 - CSS.
 - JS.
 - React.
+- Redux
+- Tailwind
 - Gitflow.
 - Linters.
 
 To get a local copy up and running follow these simple steps:
 
-<<<<<<< Updated upstream
-1. Go to the [repository page]( https://juaryimami.github.io/math-magician/).
-=======
-1. Go to the [repository page]( https://github.com/juaryimami/book-store-react.git).
->>>>>>> Stashed changes
+1
 2. Press the "Code" button and copy the link.
 3. Clone it using git command `git clone <link>`.
 
